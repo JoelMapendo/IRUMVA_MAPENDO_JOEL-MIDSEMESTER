@@ -11,6 +11,12 @@ body {
     padding: 0;
     background: -moz-linear-gradient(to lign rgb(77, 77, 77),rgb(177, 177, 177),)
 }
+.family{
+    position: none;
+    left: 10px
+  
+}
+
 
 header {
     background-color: #f0f0f0;
@@ -42,10 +48,9 @@ nav li  
     background-color: #111;
 }
 img {
-    width: 135px;
-    height: 200px;
-    display: flex;
-    border-radius: 30px;
+    width: auto;
+    height: 100px;
+    border-radius: 20px;
     border-bottom: #333;
     border-color: #333;
     border: 20px;
@@ -58,4 +63,31 @@ img {
 h2 {
     color: #f0f0f0;
     background-color: #333;
+}
+.jojo{
+        top: 10%;
+        left: none;
+        bottom: auto;
+        display: flex;
+        border-color: black;
+    
+}
+.joj{
+    top: 10%;
+    left: none;
+    bottom: auto;
+    display: inline-block;
+    border-color: black;
+
+}
+.jiji {
+        top: 20%;
+        left: 20px;
+        bottom: auto;
+        display: flex;
+        box-shadow: #111;
+        border-color: black;
+}
+.jaja{
+
 }
